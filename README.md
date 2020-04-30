@@ -1,5 +1,8 @@
 # legosort
 A system which uses a color sensor to sort lego bricks.
+## Table of Contents
+
+[What you will need](https://github.com/duckida/legosort#you-will-need)
 ## You will need: 
 [Raspberry Pi 2 or later](https://raspberrypi.org)
 
