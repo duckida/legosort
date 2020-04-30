@@ -15,5 +15,5 @@ GPIOZERO Library
 
 PIR Sensor
 
-##License
+## License
 [MIT](https://choosealicense.com/licenses/mit/)
