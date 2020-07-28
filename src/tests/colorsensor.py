@@ -52,7 +52,16 @@ def loop():
     duration = time.time() - start
     green = NUM_CYCLES / duration
     print("green value - ",green)
-    time.sleep(2)  
+    time.sleep(2)
+    
+    if green > 12500:
+        print("Green")
+        
+    elif red > 12500:
+        print("Red")
+        
+    elif blue > 12500:
+        print("Blue")
 
 
 def endprogram():
