@@ -60,12 +60,38 @@ def loop():
       
     if green<7000 and blue<7000 and red>12000:
       print("Red")
+      print("Box 1")
+      time.sleep(1)
+      top.mid()
+      print("Dropping into Box")
+      time.sleep(1)
+      top.min()
+      print("going back")
+      time.sleep(1)
+      btm.mid()
       temp=1
     elif red<12000 and  blue<12000 and green>12000:
       print("Green")
+      print("Box 2")
+      time.sleep(1)
+      top.mid()
+      print("Dropping into Box")
+      time.sleep(1)
+      top.min()
+      print("going back")
+      time.sleep(1)
+      btm.max()
       temp=1
     elif green<7000 and red<7000 and blue>12000:
       print("Blue")
+      print("Box 3")
+      time.sleep(1)
+      top.mid()
+      print("Dropping into Box")
+      time.sleep(1)
+      top.min()
+      print("going back")
+      time.sleep(1)
       temp=1
     elif red>10000 and green>10000 and blue>10000 and temp==1:
       print("Waiting for Brick.....")
